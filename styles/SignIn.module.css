@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.container button {
+  width: 230px;
+  height: 50px;
+  border-radius: 5px;
+  background: white;
+  font-size: 20px;
+  border: 1px solid black
+}
+
+.textcontainer {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.textcontainer p {
+  margin: 10px;
+}
