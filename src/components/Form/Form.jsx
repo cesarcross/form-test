@@ -36,6 +36,8 @@ const Form = () => {
     axios.post(url, formData, config).then((response) => {
       console.log(response.data);
     });
+
+    alert('File successfully uploaded!')
   }
 
   const handleSubmit = (e) => {
