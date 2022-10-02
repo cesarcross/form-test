@@ -1,0 +1,47 @@
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formcontainer input {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.formcontainer label {
+  font-size: 18px;
+}
+
+.formcontainer button {
+  background: lightgray;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.uploadfilecontainer {
+  display: flex;
+  flex-direction: column;
+  border: 2px dotted lightgray;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.uploadfilecontainer>input {
+  display: none;
+}
+
+.uploadfilecontainer p {
+  font-size: 20px;
+}
+
+.uploadfilecontainer p:nth-of-type(2n) {
+  font-size: 14px;
+  color: gray;
+}
